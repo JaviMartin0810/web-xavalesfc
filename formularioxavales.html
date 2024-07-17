@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XavalesFC ~ ¡Juega en nuestro equipo!</title>
+
+    <link rel="stylesheet" href="formularioxavales.css" />
+
+    <link rel="icon" href="/imagenes/favicon.PNG"/>
+
+</head>
+<body>
+    <header><img id="logoxavales" src="imagenes/favicon.PNG" alt="Xavales FC 2018-2024" width="110" height="110"/></header>
+    <h1 id="titulo">¿QUIERES JUGAR EN EL XAVALES FC?</h1>
+
+    <form action="procesar_formulario.php" method="post">
+
+        <label for="nombre">NOMBRE:</label><br>
+        <input id="caja" type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellidos">APELLIDOS:</label><br>
+        <input id="caja" type="text" id="apellidos" name="apellidos" required><br><br>
+
+        <label for="posicion">POSICIÓN DE JUEGO:</label><br>
+        <input id="caja" type="text" id="posicion" name="posicion" required><br><br>
+
+        <label for="email">CORREO ELECTRÓNICO:</label><br>
+        <input id="caja" type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">NÚMERO DE TELÉFONO:</label><br>
+        <input id="caja" type="text" id="telefono" name="telefono" required><br><br>
+
+        <label for="comentarios">¡CUÉNTANOS QUE PUEDES OFRECER AL CLUB!</label><br>
+        <textarea id="caja" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input id="botonenviar" type="submit" value="Enviar petición">
+        <input id="botonreset" type="reset" value="Borrar todo">
+
+    </form>
+
+    <section id="barralateralderecha">
+
+            <p id="jugadores">JUGADORES <mark>SELECCIONADOS</mark>  Y <mark> RESERVAS</mark></p><br>
+            <p id="seleccionados">· Seleccionados: Antonio, Martin, Lobo, Tomás.</p><br>
+            <p id="reservas1"></p>· Reservas: Mario, Andrés, Miguel.</p><br>
+            <p id="noseleccionados2"></p>· No seleccionados: Pancho, Roberto, Lucas.</p>
+
+    </section>
+
+    <section id="informacionfichajes">
+            <h1 id="textocentrado">INFORMACIÓN INSCRIPCIONES Y FICHAJES</h1>
+            <p>
+                Bienvenidos a la página oficial del club XAVALESFC.es, esta página se encuentra activa actualmente para fichajes y renovaciones del club, si estás interesado
+                en entrar al club, rellena este formulario de inscripción y desea que te selecciones para una prueba, muchas gracias por tu interés.
+                <h4>- Atentamente Xavales FC</h4>
+
+            </p>
+    
+    </section>
+
+    <footer id="piedepagina"> © Derechos reservados completamente al club XAVALES FC ~ 2018 - 2024</footer>
+
+
+</body>
+</html>
